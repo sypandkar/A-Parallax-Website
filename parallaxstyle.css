@@ -1,0 +1,97 @@
+body , html{
+    margin: 0;
+    height:100%;
+    line-height: 1.5;
+    font-size: 25px;
+    
+}
+
+.pic1 {
+    background: url('tajmahal.jpg');
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.7;
+}
+
+.pic2 {
+    background: url('pyramid.jpg');
+    background-size: cover;
+    height: 600px;
+    opacity: 0.7;
+}
+
+.pic3 {
+    background: url('machupichu.jpg');
+    background-size: cover;
+    height: 600px;
+    opacity: 0.7;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    /* fixed = parallex 
+    scroll = normal*/
+    background-attachment: fixed;
+    /* relative position of pictures */
+    position: relative;
+    opacity: 0.7;
+}
+
+.p-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color:brown;
+}
+
+.bordertrans{
+    background-color: burlywood;
+}
+.border{
+    background-color:coral;
+}
+
+
+
+
+.section-light {
+    background-color:grey;
+    text-align:center;
+    padding: 10px 20px;
+    font-family: 'MonteCarlo', cursive;
+
+}
+
+.section-dark {
+    background-color: brown;
+    text-align: center;
+    padding: 10px 20px;
+    font-family: 'MonteCarlo', cursive;
+}
+
+
+
+
+/* properties to remember
+
+1)top: 50%; (due to this the parallax website text will be adjusted vertically)
+
+2)letter-spacing: for giving space between 
+alphabates horizontally.
+
+3)line-height:1;  (fro giving space between lines vertically)
+
+3)for parallax effect =>
+  background-attachment:fixed;
+    fixed = parallex 
+    scroll = normal 
+
+4)span     */
+
